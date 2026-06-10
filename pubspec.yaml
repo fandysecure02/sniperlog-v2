@@ -1,0 +1,43 @@
+name: sniperlog
+description: SniperLog - Jurnal Trading Scalper
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # Database Lokal
+  sqflite: ^2.3.0
+  path: ^1.9.0
+
+  # Shared Preferences untuk balance awal
+  shared_preferences: ^2.2.2
+
+  # Image Picker untuk screenshot
+  image_picker: ^1.0.7
+
+  # Path Provider untuk folder dokumen
+  path_provider: ^2.1.1
+
+  # Export CSV
+  share_plus: ^7.2.1
+
+  # Font Poppins
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
