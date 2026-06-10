@@ -20,24 +20,24 @@ dependencies:
   path: ^1.9.0
 
   # Shared Preferences untuk balance awal
-  shared_preferences: ^2.2.2
+  shared_preferences: ^2.3.0
 
   # Image Picker untuk screenshot
-  image_picker: ^1.0.7
+  image_picker: ^1.1.2
 
   # Path Provider untuk folder dokumen
-  path_provider: ^2.1.1
+  path_provider: ^2.1.3
 
-  # Export CSV
-  share_plus: ^7.2.1
+  # Export / Share file
+  share_plus: ^10.1.4
 
   # Font Poppins
-  google_fonts: ^6.1.0
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
